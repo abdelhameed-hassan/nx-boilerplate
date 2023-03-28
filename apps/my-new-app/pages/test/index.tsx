@@ -2,7 +2,7 @@ import styles from './index.module.scss';
 import { DatePicker } from 'antd';
 import { Checkbox } from 'antd';
 import type { CheckboxChangeEvent } from 'antd/es/checkbox';
-import { antDesign } from '@wexcute-boilerplate/ant-design';
+import { sharedFunction } from '@wexcute-boilerplate/shared';
 
 /* eslint-disable-next-line */
 export interface TestProps {}
@@ -17,7 +17,7 @@ const Test = (props: TestProps) => {
       <h1>Welcome to Test! Fudge</h1>
       <DatePicker />
       <Checkbox onChange={onChange}>Checkbox</Checkbox>
-      {antDesign()}
+      {sharedFunction()}
     </div>
   );
 };

@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@wexcute-boilerplate/ant-design": ["libs/ant-design/src/index.ts"]
+      "@wexcute-boilerplate/shared": ["libs/shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
